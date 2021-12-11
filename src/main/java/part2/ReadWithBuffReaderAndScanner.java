@@ -1,13 +1,15 @@
+package part2;
+
 import java.io.*;
 import java.util.Scanner;
 
-public class ReadAndWrite {
+public class ReadWithBuffReaderAndScanner {
 
     public static void main(String[] args) {
 
         String text = "";
-        text = readFileWithBufferedReader("sourceFile");
-        //text = readFileWithScanner("sourceFile");
+        //text = readFileWithBufferedReader("sourceFile");
+        text = readFileWithScanner("sourceFile");
         writeToFile(text, "targetFile");
     }
 

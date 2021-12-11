@@ -1,0 +1,1 @@
+InputStream is an abstract class and the superclass of all classes representing an input stream of bytes.
